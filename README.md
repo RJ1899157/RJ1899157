@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=600&lines=Backend+SDE+%7C+AI+%2F+RAG+Systems;FastAPI+%7C+LangChain+%7C+Vector+DBs;Building+Scalable%2C+Production-Ready+Systems;4th+Year+CSE+%40+Amity+University+Noida;Open+to+Internships+%26+SDE+Roles" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=600&lines=Backend+SDE+%7C+AI+%2F+RAG+Systems;FastAPI+%7C+LangChain+%7C+Python;Building+Scalable%2C+Production-Ready+Systems;4th+Year+CSE+%40+Amity+University+Noida;Open+to+Internships+%26+SDE+Roles" alt="Typing SVG" />
   </a>
 </p>
 
@@ -28,7 +28,7 @@ I'm a **4th-year B.Tech CSE student** (CGPA 8.86) at **Amity University, Noida**
 
 I build things that go beyond coursework — production-oriented AI systems, RAG pipelines, and data-driven applications. My internship at **Marksman Technologies** had me shipping a real AI lead-qualification product used by a sales team. Right now I'm deepening my grip on **system design** and **DSA** for placements.
 
-- 🔭 Currently building: **RAG pipeline** with Qdrant + BM25 + Hybrid Retrieval (Groq Llama 3.3 70B)
+- 🔭 Currently building: **RAG pipeline** with BM25 + dense embeddings + Hybrid Retrieval (Groq Llama 3.3 70B)
 - 🏢 Past: **AI Engineering Intern @ Marksman Technologies Pvt. Ltd.** — built LeadAI, an AI-powered sales intelligence system
 - 🎓 **Google AI Professional Certificate** (Credential: `3NAD47L24TII`) · CCNA · IIT Madras Python for Data Science
 - 🏆 **Won't Give Up.**
@@ -40,15 +40,11 @@ I build things that go beyond coursework — production-oriented AI systems, RAG
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 **Backend & AI/ML**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -57,15 +53,13 @@ I build things that go beyond coursework — production-oriented AI systems, RAG
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **Cloud & Tools**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ---
 
@@ -85,9 +79,9 @@ An end-to-end AI lead qualification engine. Ingests raw CRM leads, scores them u
 ### 🧠 RAG Pipeline with Hybrid Retrieval *(In Progress)*
 > Personal project — pair programming
 
-Production-grade RAG system combining **dense vector search (Qdrant)** + **BM25 sparse retrieval** fused via **Reciprocal Rank Fusion**. Includes a Streamlit evaluation dashboard tracking retrieval precision across two knowledge bases.
+Production-grade RAG system combining **dense vector search** (HuggingFace embeddings) + **BM25 sparse retrieval** fused via **Reciprocal Rank Fusion**. Includes a Streamlit evaluation dashboard tracking retrieval precision across two knowledge bases.
 
-`Qdrant` · `BAAI/bge-base-en-v1.5` · `BM25` · `Groq Llama 3.3 70B` · `Streamlit` · `Python`
+`BAAI/bge-base-en-v1.5` · `BM25` · `Reciprocal Rank Fusion` · `Groq Llama 3.3 70B` · `Streamlit` · `Python`
 
 ---
 
@@ -96,7 +90,7 @@ Production-grade RAG system combining **dense vector search (Qdrant)** + **BM25 
 
 Agentic tool that takes a brand concept and generates complete visual identity — logo directions, colour palettes, and copy — using a multi-step Gemini Flash + Image API pipeline.
 
-`React` · `TypeScript` · `Gemini Flash + Image API` · `Node.js` · `Express`
+`Python` · `Gemini Flash + Image API` · `Streamlit`
 
 🔗 [brand-builder](https://github.com/RJ1899157/brand-builder)
 
@@ -107,7 +101,7 @@ Agentic tool that takes a brand concept and generates complete visual identity �
 
 Structured decision tool with Pros/Cons, SWOT, and head-to-head Comparison modes — powered by the Gemini API with a clean React frontend.
 
-`React` · `TypeScript` · `Gemini API` · `Node.js` · `Express`
+`Python` · `Gemini API` · `Streamlit`
 
 🔗 [the-tiebreaker](https://github.com/RJ1899157/the-tiebreaker)
 
