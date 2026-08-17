@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=600&lines=Backend+SDE+%7C+AI+%2F+RAG+Systems;FastAPI+%7C+LangChain+%7C+Python;Building+Scalable%2C+Production-Ready+Systems;4th+Year+CSE+%40+Amity+University+Noida;Open+to+Internships+%26+SDE+Roles" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=700&lines=Backend+SDE+%7C+AI+%2F+RAG+%2F+GraphRAG+Systems;FastAPI+%7C+Neo4j+%7C+Python+%7C+Docker;Building+Evaluated%2C+Production-Ready+AI;4th+Year+CSE+%40+Amity+University+Noida;Open+to+SDE+%26+AI+Backend+Roles" alt="Typing SVG" />
   </a>
 </p>
 
@@ -18,6 +18,9 @@
   <a href="https://github.com/RJ1899157">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://leetcode.com/u/O11LRIcuIV/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+  </a>
 </p>
 
 ---
@@ -26,11 +29,12 @@
 
 I'm a **4th-year B.Tech CSE student** (CGPA 8.86) at **Amity University, Noida** targeting **backend-oriented, AI-aware SDE roles** at top tech companies.
 
-I build things that go beyond coursework — production-oriented AI systems, RAG pipelines, and data-driven applications. My internship at **Marksman Technologies** had me shipping a real AI lead-qualification product used by a sales team. Right now I'm deepening my grip on **system design** and **DSA** for placements.
+I build things that go beyond coursework — production-grade AI systems with real evaluation metrics, GraphRAG pipelines, and containerised full-stack apps. My internship at **Marksman Technologies** had me shipping a real AI lead-qualification product used by a sales team. Right now I'm deepening my grip on **system design** and **DSA** for placements.
 
-- 🔭 Currently building: **RAG pipeline** with BM25 + dense embeddings + Hybrid Retrieval (Groq Llama 3.3 70B)
-- 🏢 Past: **AI Engineering Intern @ Marksman Technologies Pvt. Ltd.** — built LeadAI, an AI-powered sales intelligence system
-- 🎓 **Google AI Professional Certificate** (Credential: `3NAD47L24TII`) · CCNA · IIT Madras Python for Data Science
+- 🔭 Latest: **Codebase Oracle** — GraphRAG 2.0 on any GitHub repo (Neo4j + Tree-sitter + Qdrant + React Flow)
+- 🏢 Past: **AI Engineering Intern @ Marksman Technologies** — 3-layer hybrid lead qualification engine + full sales intelligence suite
+- 📊 Ships with eval: RAGAS Context Precision 94% · Faithfulness 89% · Hit@3 68.97% · Refusal 100%
+- 🎓 **Google AI Professional Certificate** · **Mastering DSA — Abdul Bari (76 hrs)** · CCNA · IIT Madras Python for Data Science
 - 🏆 **Won't Give Up.**
 
 ---
@@ -41,69 +45,94 @@ I build things that go beyond coursework — production-oriented AI systems, RAG
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-**Backend & AI/ML**
+**Backend & AI / ML**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F54E27?style=for-the-badge&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-**Databases & Vector Stores**
+**Databases, Vector Stores & Graph**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC2626?style=for-the-badge&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-**Cloud & Tools**
+**Frontend & UI**
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 LeadAI — AI-Powered Sales Intelligence System
-> **Internship @ Marksman Technologies Pvt. Ltd.**
+### 🧠 [Codebase Oracle](https://github.com/RJ1899157/codebase-oracle) — GraphRAG 2.0
+> Ask any GitHub repository questions in plain English. It understands relationships, not just text.
 
-An end-to-end AI lead qualification engine. Ingests raw CRM leads, scores them using an LLM pipeline, and surfaces actionable insights via a dashboard — reducing manual triage time for the sales team.
+Drop a GitHub URL — system clones it, parses 8+ languages via Tree-sitter into a Neo4j knowledge graph, then answers questions using 2-hop graph traversal + BGE vector search + BM25 fused via Reciprocal Rank Fusion. Every answer is grounded with verified GitHub file + exact line-range citations.
 
-`FastAPI` · `LangChain` · `Groq Llama 3.3 70B` · `Airtable` · `Python` · `Chart.js`
+| Metric | Score |
+|---|---|
+| RAGAS Context Precision | **94%** |
+| RAGAS Faithfulness | **89%** |
+| Hallucination Refusal | **100%** |
+| Test Suite | 4 / 4 passing |
 
-🔗 [marksman-internship](https://github.com/RJ1899157/marksman-internship) · [lead-qualifier-dashboard](https://github.com/RJ1899157/lead-qualifier-dashboard)
+**Two interactive graph views via React Flow:**
+- 🔷 **Blueprint Tree** — hierarchical AST dependency flow
+- 🌐 **Orbital Galaxy** — radial subsystem orbit map
 
----
-
-### 🧠 RAG Pipeline with Hybrid Retrieval *(In Progress)*
-> Personal project — pair programming
-
-Production-grade RAG system combining **dense vector search** (HuggingFace embeddings) + **BM25 sparse retrieval** fused via **Reciprocal Rank Fusion**. Includes a Streamlit evaluation dashboard tracking retrieval precision across two knowledge bases.
-
-`BAAI/bge-base-en-v1.5` · `BM25` · `Reciprocal Rank Fusion` · `Groq Llama 3.3 70B` · `Streamlit` · `Python`
-
----
-
-### 🎨 Brand Builder — AI Brand Visualization Studio
-> Built as part of Google × Kaggle 5-Day AI Agents Intensive
-
-Agentic tool that takes a brand concept and generates complete visual identity — logo directions, colour palettes, and copy — using a multi-step Gemini Flash + Image API pipeline.
-
-`Python` · `Gemini Flash + Image API` · `Streamlit`
-
-🔗 [brand-builder](https://github.com/RJ1899157/brand-builder)
+`Python` `FastAPI` `Neo4j` `Qdrant` `Tree-sitter` `BGE Embeddings` `BM25` `RRF` `Groq LLaMA 3.3 70B` `Gemini Flash` `Next.js` `React Flow` `Docker Compose`
 
 ---
 
-### ⚖️ The Tiebreaker — AI Decision Analysis Dashboard
-> Built as part of Google × Kaggle 5-Day AI Agents Intensive
+### 📡 [rag-system-build](https://github.com/RJ1899157/rag-system-build) — Production RAG for GitHub REST API Docs
+> Hybrid retrieval RAG that answers questions about GitHub REST endpoints from the official OpenAPI spec. Refuses to guess when context is insufficient.
 
-Structured decision tool with Pros/Cons, SWOT, and head-to-head Comparison modes — powered by the Gemini API with a clean React frontend.
+- **1,220 GitHub REST operations** indexed from full OpenAPI spec
+- BGE dense vectors + BM25 fused via Reciprocal Rank Fusion
+- Streamlit UI with source-count slider + clickable GitHub deep links per source
 
-`Python` · `Gemini API` · `Streamlit`
+| Metric | Score |
+|---|---|
+| Hit@3 | **68.97%** (20/29) |
+| Avg Retrieval Latency | **105 ms** |
+| Refusal Accuracy | **100%** |
 
-🔗 [the-tiebreaker](https://github.com/RJ1899157/the-tiebreaker)
+`Python` `FastAPI` `Qdrant` `BGE` `BM25` `RRF` `Groq` `Streamlit` `Docker Compose` `Pytest`
+
+---
+
+### 🎨 [Brand Builder](https://github.com/RJ1899157/brand-builder) — AI Brand Visualization Studio
+> Drop a product description, get three print-ready ad formats in seconds.
+
+Parallel Gemini Image API calls generate Billboard (16:9), Newspaper (3:4), and Social Post (1:1) mockups. Gemini Flash derives creative prompts from minimal input with offline fallback.
+
+`React` `TypeScript` `Gemini Flash` `Gemini Image API` `Node.js` `Express`
+
+---
+
+### ⚖️ [The Tiebreaker](https://github.com/RJ1899157/the-tiebreaker) — AI Decision Analysis Dashboard
+> Three structured modes for making hard decisions with AI-powered analysis.
+
+Weighted Pros & Cons with animated balance scale, SWOT matrix, multi-criteria comparison grid — Gemini AI recommendations, exponential backoff, and session archive.
+
+`React` `TypeScript` `Gemini API` `Node.js` `Express`
 
 ---
 
@@ -125,17 +154,17 @@ Structured decision tool with Pros/Cons, SWOT, and head-to-head Comparison modes
 
 | Credential | Issuer | Year |
 |---|---|---|
-| Google AI Professional Certificate (`3NAD47L24TII`) | Google / Kaggle | 2025 |
+| Google AI Professional Certificate (`3NAD47L24TII`) · [Verify](https://coursera.org/verify/professional-cert/3NAD47L24TII) | Google / Coursera | 2026 |
+| Mastering DSA using C and C++ (76 hrs) · [Verify](https://www.udemy.com/certificate/UC-e5974809-1bc1-4d2e-b7b6-84f97b7e917e/) | Abdul Bari / Udemy | 2026 |
 | CCNA: Introduction to Networking | Cisco / NetAcad | 2024 |
 | Python for Data Science | IIT Madras (NPTEL) | 2024 |
 | Google AI Essentials | Google | 2024 |
-| Microsoft AI Skills Yatra (Azure AI) | Microsoft | 2025 |
 
 ---
 
 ## 📬 Let's Connect
 
-I'm actively looking for **SDE internships and full-time opportunities** in backend / AI engineering. If you're building something ambitious, let's talk.
+I'm actively looking for **SDE and AI backend roles**. If you're building something ambitious, let's talk.
 
 <p align="center">
   <a href="https://linkedin.com/in/rishabh-jain-b24383359">
