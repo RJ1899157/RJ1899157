@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=700&lines=Backend+SDE+%7C+AI+%2F+RAG+%2F+GraphRAG+Systems;FastAPI+%7C+Neo4j+%7C+Python+%7C+Docker;Building+Evaluated%2C+Production-Ready+AI;4th+Year+CSE+%40+Amity+University+Noida;Open+to+SDE+%26+AI+Backend+Roles" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C9FF&center=true&vCenter=true&width=700&lines=Backend+SDE+%7C+AI+%2F+RAG+%2F+GraphRAG+Systems;FastAPI+%7C+Neo4j+%7C+Python+%7C+Docker;Building+Evaluated%2C+Production-Ready+AI;GraphRAG+%7C+Multi-Hop+QA+%7C+RAG+Systems;4th+Year+CSE+%40+Amity+University+Noida;Open+to+SDE+%26+AI+Backend+Roles" alt="Typing SVG" />
   </a>
 </p>
 
@@ -31,9 +31,10 @@ I'm a **4th-year B.Tech CSE student** (CGPA 8.86) at **Amity University, Noida**
 
 I build things that go beyond coursework — production-grade AI systems with real evaluation metrics, GraphRAG pipelines, and containerised full-stack apps. My internship at **Marksman Technologies** had me shipping a real AI lead-qualification product used by a sales team. Right now I'm deepening my grip on **system design** and **DSA** for placements.
 
-- 🔭 Latest: **Codebase Oracle** — GraphRAG 2.0 on any GitHub repo (Neo4j + Tree-sitter + Qdrant + React Flow)
+- 🔭 Latest: **CritHop** — multi-hop QA beating HopRAG on HotpotQA, MuSiQue, and 2WikiMultiHopQA (HopRAG + Self-RAG critique gates + trained reranker-slm)
+- 🧠 Previous: **Codebase Oracle** — GraphRAG 2.0 on any GitHub repo (Neo4j + Tree-sitter + Qdrant + React Flow)
 - 🏢 Past: **AI Engineering Intern @ Marksman Technologies** — 3-layer hybrid lead qualification engine + full sales intelligence suite
-- 📊 Ships with eval: RAGAS Context Precision 94% · Faithfulness 89% · Hit@3 68.97% · Refusal 100%
+- 📊 Ships with eval: CritHop 66.20 EM on HotpotQA · RAGAS Context Precision 94% · Faithfulness 89% · Hit@3 68.97% · Refusal 100%
 - 🎓 **Google AI Professional Certificate** · **Mastering DSA — Abdul Bari (76 hrs)** · CCNA · IIT Madras Python for Data Science
 - 🏆 **Won't Give Up.**
 
@@ -80,6 +81,30 @@ I build things that go beyond coursework — production-grade AI systems with re
 ---
 
 ## 🚀 Featured Projects
+
+### 🔗 [CritHop](https://github.com/RJ1899157/crithop) — Multi-Hop QA via Critique-Augmented Graph Traversal
+> Beats HopRAG on all three standard multi-hop QA benchmarks.
+
+Combines HopRAG-style passage graph traversal with Self-RAG binary critique gates injected at three points in the pipeline — pruning bad evidence mid-hop, verifying passage support before generation, and triggering re-retrieval on weak answers. Phase 2 replaces the prompted IsREL critic with a trained reranker-slm adapter (Qwen2.5-0.5B QLoRA) for further gains.
+
+| Dataset | HopRAG EM | CritHop P1 EM | CritHop P2 EM |
+|---|---|---|---|
+| HotpotQA | 62.00 | **63.80** | **66.20** |
+| MuSiQue | 42.20 | **43.60** | **45.90** |
+| 2WikiMultiHopQA | 61.10 | **62.80** | **65.40** |
+
+`Python` `FastAPI` `BGE` `BM25` `RRF` `Groq LLaMA 3.3 70B` `Next.js` `Tailwind CSS` `Docker Compose`
+
+---
+
+### 🎯 [reranker-slm](https://github.com/RJ1899157/reranker-slm) — Trained Relevance Reranker
+> Qwen2.5-0.5B fine-tuned via QLoRA on MS-MARCO as a binary passage reranker. Powers CritHop Phase 2 as the trained IsREL critic.
+
+Fine-tuned on 80k MS-MARCO passage pairs using 4-bit quantization + LoRA adapters on free-tier Colab T4. Replaces repeated Groq API calls at the relevance gate with fast local inference. Evaluated against BM25, BGE, and BERT-large (Nogueira & Cho, 2019) baselines.
+
+`Python` `Qwen2.5-0.5B` `QLoRA` `PEFT` `TRL` `MS-MARCO` `HuggingFace` `NDCG@10` `MRR@10`
+
+---
 
 ### 🧠 [Codebase Oracle](https://github.com/RJ1899157/codebase-oracle) — GraphRAG 2.0
 > Ask any GitHub repository questions in plain English. It understands relationships, not just text.
