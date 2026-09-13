@@ -143,34 +143,16 @@ Drop a GitHub URL — system clones it, parses 8+ languages via Tree-sitter into
 
 ---
 
-### 🎨 [Brand Builder](https://github.com/RJ1899157/brand-builder) — AI Brand Visualization Studio
-> Drop a product description, get three print-ready ad formats in seconds.
-
-Parallel Gemini Image API calls generate Billboard (16:9), Newspaper (3:4), and Social Post (1:1) mockups. Gemini Flash derives creative prompts from minimal input with offline fallback.
-
-`React` `TypeScript` `Gemini Flash` `Gemini Image API` `Node.js` `Express`
-
----
-
-### ⚖️ [The Tiebreaker](https://github.com/RJ1899157/the-tiebreaker) — AI Decision Analysis Dashboard
-> Three structured modes for making hard decisions with AI-powered analysis.
-
-Weighted Pros & Cons with animated balance scale, SWOT matrix, multi-criteria comparison grid — Gemini AI recommendations, exponential backoff, and session archive.
-
-`React` `TypeScript` `Gemini API` `Node.js` `Express`
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RJ1899157&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=RJ1899157&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=3600" height="170" alt="stats"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RJ1899157&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RJ1899157&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=3600" height="170" alt="languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RJ1899157&theme=tokyonight&hide_border=true" alt="streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RJ1899157&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
 
 ---
