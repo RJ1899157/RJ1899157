@@ -144,17 +144,14 @@ Drop a GitHub URL — system clones it, parses 8+ languages via Tree-sitter into
 ---
 
 ## 📊 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RJ1899157&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=3600" height="170" alt="stats"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=RJ1899157&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" alt="stats"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RJ1899157&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=3600" height="170" alt="languages"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=RJ1899157&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="languages"/>
 </p>
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RJ1899157&theme=tokyonight&hide_border=true" alt="streak"/>
+  <img src="https://streak-stats.demolab.com/?user=RJ1899157&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
-
 ---
 
 ## 🏅 Certifications
