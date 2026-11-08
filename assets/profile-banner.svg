@@ -2,19 +2,19 @@
   <title id="title">Rishabh Jain</title>
   <defs>
     <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#101a31"/>
-      <stop offset="1" stop-color="#122e3e"/>
+      <stop stop-color="#101b38"/>
+      <stop offset="1" stop-color="#164453"/>
     </linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#acc7e0" opacity=".17"/>
     </pattern>
   </defs>
-  <rect x="1" y="1" width="1198" height="258" rx="24" fill="url(#background)" stroke="#45627b" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="256" rx="24" fill="url(#background)" stroke="#719cc2" stroke-width="4"/>
   <rect x="725" y="22" width="444" height="216" rx="12" fill="url(#dots)"/>
   <path d="M78 62h36" stroke="#78e1ca" stroke-width="4" stroke-linecap="round"/>
   <text x="131" y="68" fill="#9fdccc" font-family="monospace" font-size="16" letter-spacing="3">ENGINEERING PORTFOLIO</text>
-  <text x="72" y="151" fill="#f3f8ff" font-family="system-ui, sans-serif" font-weight="700" font-size="76" letter-spacing="-3">Rishabh Jain</text>
-  <text x="78" y="201" fill="#b9cce2" font-family="system-ui, sans-serif" font-size="24">Backend engineering · Applied AI · Data systems</text>
+  <text x="72" y="155" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="800" font-size="88" letter-spacing="-3">Rishabh Jain</text>
+  <text x="78" y="204" fill="#d0e4f5" font-family="system-ui, sans-serif" font-weight="500" font-size="26">Backend engineering · Applied AI · Data systems</text>
   <g fill="none" stroke="#51748c" stroke-width="2">
     <path d="M783 77h55q16 0 16 16v22q0 15 16 15h52"/>
     <path d="M783 184h55q16 0 16-16v-22q0-16 16-16h52"/>
