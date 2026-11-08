@@ -1,7 +1,7 @@
 <h1 align="center"><img src="assets/profile-banner.svg" alt="Rishabh Jain · Backend engineering, applied AI, and data systems" width="100%"></h1>
 
 <p align="center">
-  <strong><a href="#selected-projects">Selected projects</a> · <a href="#more-projects">More projects</a> · <a href="#evaluation-highlights">Evaluation</a> · <a href="#experience--education">Experience</a></strong>
+  <strong><a href="#user-content-selected-projects">Selected projects</a> · <a href="#user-content-more-projects">More projects</a> · <a href="#user-content-evaluation-highlights">Evaluation</a> · <a href="#user-content-experience--education">Experience</a></strong>
 </p>
 <p align="center">
   <strong><a href="https://www.linkedin.com/in/rishabh-jain-b24383359">LinkedIn ↗</a> · <a href="mailto:jainrishabh331@gmail.com">Email ↗</a> · <a href="https://leetcode.com/u/O11LRIcuIV/">LeetCode ↗</a></strong>
