@@ -40,49 +40,23 @@ PipeGuard monitors an Airflow and dbt workload, records execution attempts and d
 
 </details>
 
-### CritHop
-
-<a href="https://github.com/RJ1899157/CritHop"><img src="https://img.shields.io/badge/Repository-304C69?style=flat-square&amp;logo=github&amp;logoColor=white" alt="CritHop repository"></a>
-
-Answers multi-hop questions by traversing a passage graph and checking evidence relevance and support along the way. Phase 2 uses a trained reranker to score passage relevance.
-
-### Codebase Oracle
-
-<a href="https://github.com/RJ1899157/codebase-oracle"><img src="https://img.shields.io/badge/Repository-304C69?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Codebase Oracle repository"></a>
-
-Parses repositories into a symbol and dependency graph. Combines 2D and 3D exploration with GraphRAG answers that cite source files and line ranges.
-
-### AirForce
-
-<a href="https://github.com/RJ1899157/aws-envhacks"><img src="https://img.shields.io/badge/Repository-304C69?style=flat-square&amp;logo=github&amp;logoColor=white" alt="AirForce repository"></a>
-
-Models indoor air quality in a 3D floor-plan builder. Uses browser-based simulation to show how airflow and pollution change across rooms.
-
-### reranker-slm
-
-<a href="https://github.com/RJ1899157/reranker-slm"><img src="https://img.shields.io/badge/Repository-304C69?style=flat-square&amp;logo=github&amp;logoColor=white" alt="reranker-slm repository"></a>
-
-Fine-tunes Qwen2.5-0.5B with QLoRA on MS MARCO passage pairs for relevance scoring. The adapter powers CritHop's trained relevance check.
-
-### API Docs RAG
-
-<a href="https://github.com/RJ1899157/api-docs-rag-api"><img src="https://img.shields.io/badge/Repository-304C69?style=flat-square&amp;logo=github&amp;logoColor=white" alt="API Docs RAG repository"></a>
-
-Searches 1,220 GitHub REST operations from the OpenAPI spec using dense and keyword retrieval. Returns answers with source links and abstains when evidence is insufficient.
+- **[CritHop](https://github.com/RJ1899157/CritHop)** · Answers multi-hop questions by traversing a passage graph and checking evidence relevance and support along the way. Phase 2 uses a trained reranker to score passage relevance.
+- **[Codebase Oracle](https://github.com/RJ1899157/codebase-oracle)** · Parses repositories into a symbol and dependency graph. Combines 2D and 3D exploration with GraphRAG answers that cite source files and line ranges.
+- **[AirForce](https://github.com/RJ1899157/aws-envhacks)** · Models indoor air quality in a 3D floor-plan builder. Uses browser-based simulation to show how airflow and pollution change across rooms.
+- **[reranker-slm](https://github.com/RJ1899157/reranker-slm)** · Fine-tunes Qwen2.5-0.5B with QLoRA on MS MARCO passage pairs for relevance scoring. The adapter powers CritHop's trained relevance check.
+- **[API Docs RAG](https://github.com/RJ1899157/api-docs-rag-api)** · Searches 1,220 GitHub REST operations from the OpenAPI spec using dense and keyword retrieval. Returns answers with source links and abstains when evidence is insufficient.
 
 ## More projects
 
-- <a href="https://github.com/RJ1899157/bigquery-release-radar"><img src="https://img.shields.io/badge/BigQuery%20Release%20Radar-304C69?style=flat-square" alt="BigQuery Release Radar"></a> · Search and filter BigQuery release notes in a Flask dashboard, with caching and CSV export.
-- <a href="https://github.com/RJ1899157/brand-builder"><img src="https://img.shields.io/badge/Brand%20Builder-304C69?style=flat-square" alt="Brand Builder"></a> · Generate product advertising mockups for billboard, newspaper, and social formats.
-- <a href="https://github.com/RJ1899157/the-tiebreaker"><img src="https://img.shields.io/badge/The%20Tiebreaker-304C69?style=flat-square" alt="The Tiebreaker"></a> · Compare options using weighted criteria, pros and cons, and SWOT analysis.
-- <a href="https://github.com/RJ1899157/car-sales-prediction"><img src="https://img.shields.io/badge/Car%20Sales%20Prediction-304C69?style=flat-square" alt="Car Sales Prediction"></a> · Compare linear regression and tuned random forests on a customer purchasing capacity dataset.
-- <a href="https://github.com/RJ1899157/DSA"><img src="https://img.shields.io/badge/DSA%20solutions-304C69?style=flat-square" alt="DSA solutions"></a> · Topic-organized C++ solutions and a separate <a href="https://github.com/RJ1899157/LEETCODE_PROBLEMS"><img src="https://img.shields.io/badge/LeetCode%20practice%20log-304C69?style=flat-square" alt="LeetCode practice log"></a>.
+- **[BigQuery Release Radar](https://github.com/RJ1899157/bigquery-release-radar)** · Search and filter BigQuery release notes in a Flask dashboard, with caching and CSV export.
+- **[Brand Builder](https://github.com/RJ1899157/brand-builder)** · Generate product advertising mockups for billboard, newspaper, and social formats.
+- **[The Tiebreaker](https://github.com/RJ1899157/the-tiebreaker)** · Compare options using weighted criteria, pros and cons, and SWOT analysis.
+- **[Car Sales Prediction](https://github.com/RJ1899157/car-sales-prediction)** · Compare linear regression and tuned random forests on a customer purchasing capacity dataset.
+- **[DSA solutions](https://github.com/RJ1899157/DSA)** · Topic-organized C++ solutions and a separate [LeetCode practice log](https://github.com/RJ1899157/LEETCODE_PROBLEMS).
 
 ## Evaluation highlights
 
 In CritHop's documented evaluation, the Phase 2 reranker improved exact match (EM) over the reported HopRAG baseline on all three datasets.
-
-<a href="https://github.com/RJ1899157/CritHop"><img src="https://img.shields.io/badge/CritHop%20benchmark%20results-4D417B?style=flat-square" alt="CritHop benchmark results"></a>
 
 | Dataset | HopRAG EM | CritHop Phase 2 EM | Gain |
 | --- | ---: | ---: | ---: |
@@ -90,9 +64,11 @@ In CritHop's documented evaluation, the Phase 2 reranker improved exact match (E
 | MuSiQue | 42.20 | **45.90** | +3.70 pts |
 | 2WikiMultiHopQA | 61.10 | **65.40** | +4.30 pts |
 
+[Read the CritHop benchmark results](https://github.com/RJ1899157/CritHop)
+
 API Docs RAG retrieved the expected operation in its top three results on **20 of 29 evaluation queries (68.97% Hit@3)**.
 
-<a href="https://github.com/RJ1899157/api-docs-rag-api#evaluation-and-tests"><img src="https://img.shields.io/badge/API%20Docs%20RAG%20evaluation-4D417B?style=flat-square" alt="API Docs RAG evaluation"></a>
+[Read the API Docs RAG evaluation](https://github.com/RJ1899157/api-docs-rag-api#evaluation-and-tests)
 
 ## Tools I work with
 
@@ -110,6 +86,10 @@ API Docs RAG retrieved the expected operation in its top three results on **20 o
 
 ### Selected credentials
 
-- <a href="https://www.coursera.org/verify/professional-cert/3NAD47L24TII"><img src="https://img.shields.io/badge/Google%20AI%20Professional%20Certificate-4D417B?style=flat-square" alt="Google AI Professional Certificate"></a>
-- <a href="https://www.udemy.com/certificate/UC-e5974809-1bc1-4d2e-b7b6-84f97b7e917e/"><img src="https://img.shields.io/badge/Data%20structures%20%26%20algorithms-4D417B?style=flat-square" alt="Mastering Data Structures &amp; Algorithms using C and C++"></a>
-- Cisco Networking Academy's CCNA Introduction to Networking, IIT Madras/NPTEL Python for Data Science, and Google AI Essentials.
+| Credential | Issuer | Year | Verification |
+| --- | --- | --- | --- |
+| Google AI Professional Certificate | Google / Coursera | 2026 | [Verify](https://www.coursera.org/verify/professional-cert/3NAD47L24TII) |
+| Mastering Data Structures & Algorithms using C and C++ | Abdul Bari / Udemy | 2026 | [Verify](https://www.udemy.com/certificate/UC-e5974809-1bc1-4d2e-b7b6-84f97b7e917e/) |
+| CCNA Introduction to Networking | Cisco Networking Academy | 2024 | — |
+| Python for Data Science | IIT Madras / NPTEL | 2024 | — |
+| Google AI Essentials | Google | 2024 | — |
