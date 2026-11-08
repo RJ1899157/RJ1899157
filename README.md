@@ -1,9 +1,10 @@
 <h1 align="center"><img src="assets/profile-banner.svg" alt="Rishabh Jain · Backend engineering, applied AI, and data systems" width="100%"></h1>
 
 <p align="center">
-  <a href="#user-content-selected-projects"><img src="https://img.shields.io/badge/Selected%20projects-304C69?style=for-the-badge" alt="Selected projects"></a>
-  <a href="#user-content-more-projects"><img src="https://img.shields.io/badge/More%20projects-304C69?style=for-the-badge" alt="More projects"></a>
+  <a href="#user-content-selected-projects"><img src="https://img.shields.io/badge/Projects-304C69?style=for-the-badge" alt="Projects"></a>
+  <a href="#user-content-more-projects"><img src="https://img.shields.io/badge/More%20work-304C69?style=for-the-badge" alt="More work"></a>
   <a href="#user-content-evaluation-highlights"><img src="https://img.shields.io/badge/Evaluation-304C69?style=for-the-badge" alt="Evaluation"></a>
+  <a href="#user-content-github-stats"><img src="https://img.shields.io/badge/GitHub%20stats-304C69?style=for-the-badge" alt="GitHub stats"></a>
   <a href="#user-content-experience--education"><img src="https://img.shields.io/badge/Experience-304C69?style=for-the-badge" alt="Experience"></a>
 </p>
 <p align="center">
@@ -69,6 +70,12 @@ In CritHop's documented evaluation, the Phase 2 reranker improved exact match (E
 API Docs RAG retrieved the expected operation in its top three results on **20 of 29 evaluation queries (68.97% Hit@3)**.
 
 [Read the API Docs RAG evaluation](https://github.com/RJ1899157/api-docs-rag-api#evaluation-and-tests)
+
+## GitHub stats
+
+![GitHub activity for the year ending 8 November 2026. 779 contributions; Current streak: 1 day; Longest streak: 7 days; 15 public repositories. Primary languages across 13 public repositories: TypeScript 6, Python 4, C++ 1, CSS 1, JavaScript 1.](assets/github-stats.svg)
+
+Snapshot from the public profile on **8 November 2026**. Each classified repository contributes one count to its primary language. [View live contribution history](#js-contribution-activity-description)
 
 ## Tools I work with
 
